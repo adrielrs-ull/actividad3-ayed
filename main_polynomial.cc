@@ -90,6 +90,16 @@ int main()
   cout << "sp2 == p3? " << (sp2.IsEqual(p3) ? "true" : "false") << endl;
   cout << "sp3 == p2? " << (sp3.IsEqual(p2) ? "true" : "false") << endl;
   cout << endl;
-
+  
+  //práctica
+  cout << "Sp1 consecutivos:";
+  sp1.MostrarMonomios();
+  cout << endl;
+  cout << "Sp2 consecutivos:";
+  sp2.MostrarMonomios();
+  cout << endl;
+  cout << "Sp3 consecutivos:";
+  sp3.MostrarMonomios();
+  cout << endl;
   return 0;
 }
